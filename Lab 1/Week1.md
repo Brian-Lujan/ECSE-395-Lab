@@ -1,4 +1,4 @@
-# ESCE 395 - Week 1 Log
+# ECSE 395 - Week 1 Log
 **Brian Lujan - Team 5**
 
 ## Problem 1
@@ -16,7 +16,7 @@ This document logs every action taken during the week towards the semester proje
 * 08/28/2026 - A shared google drive was created with the team contract
   * All team members worked on the team contract. Sameer was selected as the leader, Ben as the secretary, and Brian as the document manager
 
-NOTE: The team, at this point in time, has not yet met to discuss the project in person. 
+NOTE: The team, at this point in time, has not yet met to discuss the project in person. Also, the team has not yet sent out the stakeholder email as we are pending approval of a resubmission of our draft.
 
 
 
