@@ -1,4 +1,4 @@
-# ECSE 395 - Week 2 Log
+# ECSE 395 - Week 3 Log
 **Brian Lujan - Team 5**
 
 ## Schedule

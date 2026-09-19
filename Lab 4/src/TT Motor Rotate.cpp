@@ -1,3 +1,4 @@
+/*
 #include <Arduino.h>
 
 // TODO: Define your pins
@@ -7,53 +8,56 @@ const int MOTOR_B_1B = 0;
 
 void setup() {
   // TODO: Initialize Serial communication
-  // Serial.begin(_____);
+  Serial.begin(115200);
 
-  // TODO: Set your motor pins as OUTPUTs
-  // pinMode(_____, _____);
-  // pinMode(_____, _____); 
+  // bal131 - Sets motor pins as outputs
+  pinMode(A0, OUTPUT);
+  pinMode(A1, OUTPUT); 
 
-  // Serial.println("_____");
+  Serial.println("Outputs configured");
 }
 
 void loop() {
   // --- SECTION 1: Clokwise (5s) ---
-  // Serial.println("_____");
+  Serial.println("Turning clockwise");
   
-  // TODO: Write HIGH to one pin and LOW to the other
-  // digitalWrite(_____, _____);
-  // digitalWrite(_____, _____);
   
-  // delay(_____);
+  // bal131 - Powers one rotation direction and not another
+  digitalWrite(A0, HIGH);
+  digitalWrite(A1, LOW);
+  
+  delay(5000);
 
   // --- SECTION 2: Stop (2s) ---
-  // Serial.println("_____");
+  Serial.println("Stopping motor");
   
-  // TODO: Turn off the motor
-  // digitalWrite(_____, _____);
-  // digitalWrite(_____, _____);
+  // bal131 - Stops the motor
+  digitalWrite(A0, LOW);
+  digitalWrite(A1, LOW);
 
-  // delay(_____);
+  delay(2000);
 
   // --- SECTION 3: Counterclockwise (5s) ---
-  // Serial.println("_____");
+  Serial.println("Rotating counterclockwise");
   
-  // TODO: Write HIGH to one pin and LOW to the other
-  // digitalWrite(_____, _____);
-  // digitalWrite(_____, _____);
+  // bal131 - Inverts motor power, rotating in opposide direction
+  digitalWrite(A0, LOW);
+  digitalWrite(A1, HIGH);
 
-  // delay(_____);
+  delay(5000);
 
   // --- SECTION 4: Stop (2s) ---
-  // Serial.println("_____");
+  Serial.println("Stopping");
   
-  // TODO: Turn off the motor
-  // digitalWrite(_____, _____);
-  // digitalWrite(_____, _____);
+  // bal131 - Stops motor
+  digitalWrite(A0, LOW);
+  digitalWrite(A1, LOW);
 
-  // delay(_____);
+  // bal131 - Pauses for 2 seconds before rotating again
+  delay(2000);
 }
 
 
 // Note:
 // - Please uncomment the necessary lines and fill in the blank to complete the assignment.
+*/
